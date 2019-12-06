@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\compareQuaternion.cs" />
     <Compile Include="Assets\NoitomNeuron\Lamp.cs" />
     <Compile Include="Assets\NoitomNeuron\Neuron\Scripts\Mocap\NeuronActor.cs" />
     <Compile Include="Assets\NoitomNeuron\Neuron\Scripts\Mocap\NeuronAnimatorInstance.cs" />
@@ -109,6 +110,8 @@
     <Compile Include="Assets\NoitomNeuron\ResetPosition.cs" />
     <Compile Include="Assets\NoitomNeuron\TestCentroid.cs" />
     <Compile Include="Assets\NoitomNeuron\TestConfigJoint.cs" />
+    <Compile Include="Assets\Scripts\read_quaternion.cs" />
+    <Compile Include="Assets\Scripts\rotation_henka.cs" />
     <Compile Include="Assets\Scripts\tekitou.cs" />
     <Compile Include="Assets\Scripts\zahyou_henka.cs" />
     <None Include="Assets\NoitomNeuron\Neuron\PN_UnityIntegration_ChangLog.txt" />
