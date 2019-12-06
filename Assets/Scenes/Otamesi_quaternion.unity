@@ -2142,7 +2142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chara1: {fileID: 425875383}
-  chara2: {fileID: 442396425}
+  chara2: {fileID: 1121032476}
 --- !u!4 &1566198051
 Transform:
   m_ObjectHideFlags: 0

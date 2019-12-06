@@ -8,6 +8,24 @@ TagManager:
   - ForeArm
   - Hand
   - Hip
+  - RightArm
+  - RightForeArm
+  - RightHand
+  - RightShoulder
+  - LeftShoulder
+  - LeftArm
+  - LeftForeArm
+  - LeftHand
+  - Spine1
+  - Head
+  - RightUpLeg
+  - RightLeg
+  - RightFoot
+  - RightToeBase
+  - LeftUpLeg
+  - LeftLeg
+  - LeftFoot
+  - LeftToeBase
   layers:
   - Default
   - TransparentFX

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DC4C8C9B-EC7A-22F0-222D-B693CA9B0381}</ProjectGuid>
+    <ProjectGuid>{4FD9290C-E44A-F7BF-CDAC-2518D3AAF2E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,7 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\compareQuaternion.cs" />
     <Compile Include="Assets\NoitomNeuron\Lamp.cs" />
     <Compile Include="Assets\NoitomNeuron\Neuron\Scripts\Mocap\NeuronActor.cs" />
     <Compile Include="Assets\NoitomNeuron\Neuron\Scripts\Mocap\NeuronAnimatorInstance.cs" />
@@ -110,27 +109,29 @@
     <Compile Include="Assets\NoitomNeuron\ResetPosition.cs" />
     <Compile Include="Assets\NoitomNeuron\TestCentroid.cs" />
     <Compile Include="Assets\NoitomNeuron\TestConfigJoint.cs" />
-    <Compile Include="Assets\Scripts\read_quaternion.cs" />
-    <Compile Include="Assets\Scripts\rotation_henka.cs" />
-    <Compile Include="Assets\Scripts\tekitou.cs" />
-    <Compile Include="Assets\Scripts\zahyou_henka.cs" />
+    <Compile Include="Assets\Scripts\compareQuaternion.cs" />
+    <Compile Include="Assets\Scripts\compareQuaternionOtamesi.cs" />
+    <Compile Include="Assets\Scripts\Dust\read_quaternion.cs" />
+    <Compile Include="Assets\Scripts\Dust\rotation_henka.cs" />
+    <Compile Include="Assets\Scripts\Dust\tekitou.cs" />
+    <Compile Include="Assets\Scripts\Dust\zahyou_henka.cs" />
     <None Include="Assets\NoitomNeuron\Neuron\PN_UnityIntegration_ChangLog.txt" />
     <None Include="Assets\NoitomNeuron\Neuron\Resources\Shaders\BoneLineShader.shader" />
     <None Include="Assets\NoitomNeuron\NeuronDebug\Fonts\LICENSE.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/sabom/tekitou2018/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/sabom/Pose_Compare/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/sabom/tekitou2018/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/sabom/Pose_Compare/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/sabom/tekitou2018/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/sabom/Pose_Compare/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/sabom/tekitou2018/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/sabom/Pose_Compare/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/sabom/tekitou2018/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/sabom/Pose_Compare/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -334,13 +335,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.8f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/sabom/tekitou2018/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/sabom/Pose_Compare/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/sabom/tekitou2018/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/sabom/Pose_Compare/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/sabom/tekitou2018/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/sabom/Pose_Compare/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.8f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
